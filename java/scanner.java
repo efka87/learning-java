@@ -45,16 +45,16 @@ class scanner {
     System.out.println("");
 
     // Generate and print story
-    String story = story(name, age, city, food, hobby, animal, gender);
-    System.out.println(story);
+    String storyCont = tellingStory(name, age, city, food, hobby, animal, gender);
+    System.out.println(storyCont);
 
     canon.close();    
   }
 
-  public static String story(String name, String age, String city, String food, String hobby, String animal, String gender) {
+  public static String tellingStory(String name, String age, String city, String food, String hobby, String animal, String gender) {
     String pronoun = (gender.equalsIgnoreCase("female")) ? "She" : "He";
 
-    // Generate the story
+    
     String story = "Once upon a time, there was a person named " + name + ". " +
     pronoun + " was " + age + " years old and lived in " + city + ". " +
     pronoun + " loves to eat a lot of " + food + " and the favorite animal was a " + animal + ". " +
