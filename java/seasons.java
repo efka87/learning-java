@@ -3,7 +3,7 @@ public class seasons {
       // winter, spring, summer, autumn
       // warm jacket, t-shirt, swimming suite, rain coat
         String season = "spring";
-  //testing
+  
         if (season == "winter") {
             System.out.println("Wear a warm jacket!");
         } else if (season == "spring") {
